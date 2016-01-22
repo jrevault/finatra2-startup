@@ -19,8 +19,8 @@ object DBConfModule extends TwitterModule {
   val ds_host = flag("db.host", "127.0.0.1", "Host name or IP address. (127.0.0.1)")
   val ds_port = flag("db.port", "3306", "Database port. (3306)")
   val ds_name = flag("db.name", "quidquid_db", "Database name. (quidquid_db)")
-  val ds_user = flag("db.user", "root", "DB user name")
-  val ds_pass = flag("db.pass", "!root!", "The password")
+  val ds_user = flag("db.user", "my_user", "DB user name")
+  val ds_pass = flag("db.pass", "my_secret", "The password")
  
   @Provides
   def get_props: Properties = {
