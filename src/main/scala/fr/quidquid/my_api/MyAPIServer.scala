@@ -1,7 +1,7 @@
-package com.quidquid.my_api
+package fr.quidquid.my_api
  
-import com.quidquid.my_api.controllers._
-import com.quidquid.my_api.modules.{DBConfModule, MyAPIWarmupHandler}
+import fr.quidquid.my_api.controllers._
+import fr.quidquid.my_api.modules.{DBConfModule, MyAPIWarmupHandler}
 import com.twitter.finatra.http.HttpServer
 import com.twitter.finatra.http.routing.HttpRouter
  

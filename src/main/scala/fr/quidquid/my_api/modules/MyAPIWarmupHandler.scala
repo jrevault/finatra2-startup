@@ -1,9 +1,9 @@
-package com.quidquid.my_api.modules
+package fr.quidquid.my_api.modules
  
 import java.util.Properties
 import javax.inject.Inject
  
-import com.quidquid.my_api.DBSupport
+import fr.quidquid.my_api.DBSupport
 import com.twitter.finatra.utils.Handler
  
 class MyAPIWarmupHandler @Inject()(db_props: Properties) extends Handler {

@@ -1,11 +1,11 @@
-package com.quidquid.my_api.controllers
+package fr.quidquid.my_api.controllers
  
 import java.sql.ResultSet
  
 import com.twitter.finagle.http.Request
 import com.twitter.finatra.http.Controller
 import org.jooq.{Result, Record}
-import com.quidquid.my_api.DBSupport._
+import fr.quidquid.my_api.DBSupport._
 import scala.collection.JavaConversions._
 import scala.collection.mutable.ListBuffer
 

@@ -1,4 +1,4 @@
-package com.quidquid.my_api.modules
+package fr.quidquid.my_api.modules
  
 import java.util.Properties
  
